@@ -1,0 +1,28 @@
+{
+  "name": "json-ml",
+  "version": "1.0.0",
+  "description": "",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "tape test/*.js",
+    "dev": "watchify test/*.js -o dev/bundle.js -d -v & st -nc -d dev"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alexanderGugel/json-ml.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alexanderGugel/json-ml/issues"
+  },
+  "homepage": "https://github.com/alexanderGugel/json-ml#readme",
+  "devDependencies": {
+    "st": "^0.5.3",
+    "tape": "^4.0.0",
+    "watchify": "^3.2.0"
+  },
+  "directories": {
+    "test": "test"
+  }
+}
