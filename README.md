@@ -7,10 +7,10 @@
 ## Usage
 
 ```javascript
-var jml = require('json-ml').toHTML;
+var jml = require('json-ml');
 
 var html = jml.toHTML(['ul',
     ['li', { 'style': 'color:red' }, 'First Item'],
-    ['li', { 'title': 'Some hover text.', 'style': 'color:green' }, 'Second Item'],
+    ['li', { 'title': 'Some hover text.', 'style': 'color:green' }, 'Second Item']
 ]);
 ```
